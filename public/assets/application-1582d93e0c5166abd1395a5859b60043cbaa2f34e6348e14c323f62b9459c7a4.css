@@ -1,0 +1,437 @@
+/* line 14, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.levelscontainer {
+  margin-top: 160px;
+  color: white;
+  padding: 2%;
+  font-size: 1.2em;
+  font-family: "Marvel", sans-serif;
+}
+/* line 20, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.levelscontainer .levelsinfo {
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  padding: 2%;
+  width: 80%;
+  background-color: #1A1E26;
+  margin: 0 auto;
+}
+/* line 28, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.levelscontainer .levelsinfo h1 {
+  font-family: "Droid Serif", serif;
+}
+/* line 31, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.levelscontainer .levelsinfo h2 {
+  font-family: "Droid Serif", serif;
+  color: #AC1F1F;
+  margin: 10px;
+}
+/* line 36, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.levelscontainer .levelsinfo textarea {
+  width: 25%;
+  font-size: 1.1em;
+}
+/* line 40, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.levelscontainer .levelsinfo #next {
+  width: 25%;
+  font-family: "Marvel", sans-serif;
+  font-size: 1em;
+  background-color: #F2C131;
+}
+
+/* line 49, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.correct::after {
+  content: "correct";
+}
+
+/* line 53, /home/lxk/codehero/app/assets/stylesheets/levels.scss */
+.correct.hides::after {
+  display: none;
+}
+/* line 14, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #0E3659;
+}
+
+/* line 22, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+header {
+  top: 0;
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: #0E5B9E;
+  box-shadow: 0px 5px 35px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 35px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 35px -5px rgba(0, 0, 0, 0.75);
+}
+/* line 31, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+header div {
+  display: inline-block;
+  padding: 40px;
+}
+/* line 34, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+header div h1 {
+  font-size: 3em;
+  text-shadow: #030303 5px 4px 8px;
+  font-family: "Bangers", cursive;
+  margin: 0;
+  letter-spacing: 0.1em;
+  float: left;
+  color: #F2C131;
+}
+/* line 44, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+header nav {
+  float: right;
+  margin: 1% 3%;
+}
+/* line 47, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+header nav ul {
+  list-style: none;
+  margin-top: 30%;
+  padding: 0;
+}
+/* line 52, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+header nav ul li a {
+  text-decoration: none;
+  color: #AC1F1F;
+  font-family: "Marvel", sans-serif;
+  font-size: 2em;
+  text-shadow: #030303 4px 4px 13px;
+}
+
+/* line 66, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container {
+  display: block;
+  height: 100%;
+  margin-top: 135px;
+}
+/* line 73, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section {
+  display: inline-block;
+  width: 70%;
+  float: left;
+}
+/* line 77, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section h1 {
+  display: inline-block;
+  font-size: 3em;
+  font-family: "Droid Serif", serif;
+  color: white;
+}
+/* line 83, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section p {
+  display: inline-block;
+  width: 80%;
+  font-family: "Marvel", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10%;
+}
+/* line 90, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div {
+  background-color: #0E5B9E;
+  display: block;
+  margin: 1% auto;
+  padding: 3%;
+  width: 80%;
+  color: white;
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  border: 2px solid #AC1F1F;
+}
+/* line 102, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div h2 {
+  margin: 2% auto;
+  font-size: 2em;
+  font-family: "Droid Serif", serif;
+}
+/* line 107, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Marvel", sans-serif;
+  font-size: 1.5em;
+}
+/* line 113, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div ul li {
+  margin: 2% 0;
+}
+/* line 115, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div ul li a {
+  text-decoration: none;
+}
+/* line 117, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div ul li a .not-active {
+  pointer-events: none;
+  cursor: default;
+  background-color: gray;
+}
+/* line 123, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container section div ul li div {
+  border: 2px solid #F2C131;
+  background-color: white;
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  color: #AC1F1F;
+}
+/* line 137, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside {
+  padding: 3%;
+  background-color: #1A1E26;
+  display: inline-block;
+  width: 20%;
+  float: right;
+  box-shadow: -3px 0px 25px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 0px 25px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 0px 25px -1px rgba(0, 0, 0, 0.75);
+}
+/* line 146, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_form {
+  width: 100%;
+}
+/* line 148, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_form h2 {
+  display: inline-block;
+  margin: 2% auto;
+  font-size: 2em;
+  font-family: "Droid Serif", serif;
+  color: white;
+}
+/* line 155, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_form p {
+  display: inline-block;
+  font-family: "Marvel", sans-serif;
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+/* line 161, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_form p #signin_button {
+  width: 100%;
+  font-family: "Marvel", sans-serif;
+  font-size: 0.8em;
+  background-color: #F2C131;
+}
+/* line 168, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_form a {
+  text-decoration: none;
+  font-family: "Marvel", sans-serif;
+  color: #F2C131;
+}
+/* line 175, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_users {
+  width: 100%;
+  margin-top: 5%;
+  border-top: 2px solid #AC1F1F;
+  overflow: scroll;
+}
+/* line 180, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_users h2 {
+  display: inline-block;
+  margin-top: 20%;
+  font-size: 2em;
+  font-family: "Droid Serif", serif;
+  color: white;
+}
+/* line 187, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_users hr {
+  border: 1px solid #F2C131;
+}
+/* line 190, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_users ul {
+  list-style: none;
+  font-family: "Marvel", sans-serif;
+  color: white;
+  font-size: 1.5em;
+  padding: 0;
+}
+/* line 196, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_users ul hr {
+  border: 1px solid #AC1F1F;
+}
+/* line 200, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.container aside .aside_users img {
+  border-radius: 50%;
+}
+
+/* line 208, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.signupcontainer {
+  margin-top: 160px;
+}
+
+/* line 211, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.signup {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #0E5B9E;
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  padding: 2%;
+  color: white;
+}
+/* line 220, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.signup h1 {
+  font-family: "Droid Serif", serif;
+  margin: 1%;
+}
+/* line 224, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.signup form {
+  font-family: "Marvel", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 232, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.showcontainer {
+  margin-top: 160px;
+  color: white;
+  padding: 2%;
+}
+/* line 236, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.showcontainer .showinfo {
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  padding: 2%;
+  width: 80%;
+  background-color: #1A1E26;
+  margin: 0 auto;
+}
+/* line 244, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.showcontainer .showinfo h2 {
+  font-family: "Droid Serif", serif;
+}
+/* line 247, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.showcontainer .showinfo img {
+  border-radius: 50%;
+}
+/* line 250, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.showcontainer .showinfo a {
+  text-decoration: none;
+  font-family: "Marvel", sans-serif;
+  color: #F2C131;
+}
+
+/* line 259, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.editcontainer {
+  margin-top: 160px;
+}
+
+/* line 262, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.edit {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #0E5B9E;
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  padding: 2%;
+  color: white;
+}
+/* line 271, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.edit h1 {
+  font-family: "Droid Serif", serif;
+  margin: 1%;
+}
+/* line 275, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.edit p {
+  font-family: "Marvel", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 282, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.levelscontainer {
+  margin-top: 160px;
+  color: white;
+  padding: 2%;
+  font-size: 1.2em;
+  font-family: "Marvel", sans-serif;
+}
+/* line 288, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.levelscontainer .levelsinfo {
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  padding: 2%;
+  width: 80%;
+  background-color: #1A1E26;
+  margin: 0 auto;
+}
+/* line 296, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.levelscontainer .levelsinfo h1 {
+  font-family: "Droid Serif", serif;
+}
+/* line 299, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.levelscontainer .levelsinfo h2 {
+  font-family: "Droid Serif", serif;
+  color: #AC1F1F;
+  margin: 10px;
+}
+/* line 304, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.levelscontainer .levelsinfo textarea {
+  width: 25%;
+  font-size: 1.1em;
+}
+/* line 308, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.levelscontainer .levelsinfo #next {
+  width: 25%;
+  font-family: "Marvel", sans-serif;
+  font-size: 1em;
+  background-color: #F2C131;
+}
+
+/* line 317, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.correct::after {
+  content: "correct";
+}
+
+/* line 321, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.correct.hides::after {
+  display: none;
+}
+
+/* line 326, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 334, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+* html .clearfix {
+  zoom: 1;
+}
+
+/* IE6 */
+/* line 335, /home/lxk/codehero/app/assets/stylesheets/users.scss */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* IE7 */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
